@@ -19,6 +19,8 @@ src/
     Forge.Campaign/      (planned) sessions, NPCs, lore, heroes, wiki sync
     Forge.Inbox/         (planned) email overview, AI triage and reply drafts
     Forge.Finance/       (planned) income/expense overview via accounting tool API
+    Forge.Clips/         (planned) stream → transcript → best moments → vertical clips + thumbnails
+    Forge.Automation/    (planned) scheduled jobs and the AI agent that prepares work while we're away
 tests/
   Forge.Tests/
 docs/
@@ -43,10 +45,17 @@ Each module owns its own code and data. Modules talk to each other only through 
 | 9 | Deployment | Forge runs in the cloud and updates the website automatically |
 
 ### Phase 2 – Expansion (Jan – Mar 2027)
-Campaign and Inbox modules.
+Clips (AI video pipeline), Automation (AI agent with tools), Campaign and Inbox modules.
 
 ### Phase 3 – Later
 Finance (via lexoffice/sevDesk API – we do **not** build our own bookkeeping) and a Blazor dashboard.
+
+All planned features with details: [`docs/backlog.md`](docs/backlog.md).
+
+## Core principle: the agent prepares, a human approves
+
+Forge drafts posts, cuts clips, sorts emails and opens pull requests on its own.
+It never publishes, replies to customers or touches money without a human clicking "approve".
 
 ## Learning rules
 

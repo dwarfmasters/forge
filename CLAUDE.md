@@ -8,3 +8,6 @@ Forge is a **learning project**. Deniz is refreshing his .NET skills by building
 - All code, comments, commits and docs are in **English**.
 - Architecture: modular monolith. Modules live in `src/Modules/`, are wired up in `src/Forge.Host`, and communicate only via public interfaces.
 - The current learning week is the highest-numbered file in `docs/learning/`.
+
+## Spaced repetition
+Deniz asked to keep older topics fresh. Start each learning session with **2–3 short recap questions** from previous sessions/weeks (e.g. `Task` vs `Task<T>`, what `await` does, sequential vs. `Task.WhenAll`) before introducing anything new. Keep it playful.
